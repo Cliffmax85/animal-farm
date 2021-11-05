@@ -16,17 +16,17 @@ const whichAnimal = document.getElementById('show-animal');
 
 dogImage.addEventListener('click', () => {
   dogSound.play();
-  whichAnimal.textContent('Doggie!!!');
+  whichAnimal.textContent=('Doggie!!!');
 });
 
 catImage.addEventListener('click', () => {
   catSound.play();
-  whichAnimal.textContent('Kitty!!!!');
+  whichAnimal.textContent=('Kitty!!!!');
 });
 
 horseImage.addEventListener('click', () => {
   horseSound.play();
-  whichAnimal.textContent('Horsey!!!');
+  whichAnimal.textContent=('Horsey!!!');
 });
 
 // document.addEventListener('keydown', (event) => {
